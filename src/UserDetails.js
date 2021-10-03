@@ -28,7 +28,7 @@ function UserDetails({ users }) {
                 >
                   {user.name}
                 </Card.Title>
-                <Card.Text>Username: @{user.username}</Card.Text>
+                <Card.Text>Username: {user.username}</Card.Text>
                 <Card.Text>Email: {user.email}</Card.Text>
                 <Card.Text>Phone: {user.phone}</Card.Text>
                 <Card.Text>Company: {user.company.name}</Card.Text>
