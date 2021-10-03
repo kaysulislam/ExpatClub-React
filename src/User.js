@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function User({ users }) {
   return (
-    <div>
+    <div className="container">
       {users.map(user => (
         <ul key={user.id}>
           <div className="user-credentials">
