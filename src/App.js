@@ -5,6 +5,7 @@ import Home from './Home';
 import UserDetails from './UserDetails';
 
 function App() {
+  // Fetch the data from the API using hooks
   const [users, setUsers] = useState([]);
 
   useEffect(() => {
